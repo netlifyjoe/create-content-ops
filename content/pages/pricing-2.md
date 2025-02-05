@@ -5,7 +5,7 @@ sections:
   - type: PricingSection
     title:
       type: TitleBlock
-      text: Flexible Pricing
+      text: Flexible Pricing for LHW!
       color: text-dark
       styles:
         self:
