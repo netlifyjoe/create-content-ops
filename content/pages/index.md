@@ -68,7 +68,7 @@ sections:
       - content/data/person6.json
     actions: []
     variant: mixed-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
