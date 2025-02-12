@@ -54,7 +54,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Hello World!
+      text: Hello World
       color: text-dark
     subtitle: Subtitle goes here
     text: >
