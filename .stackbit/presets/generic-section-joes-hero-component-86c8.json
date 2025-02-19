@@ -1,0 +1,83 @@
+{
+    "model": "GenericSection",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "Joes Hero Component",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Hero Sections"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": {
+                    "$$type": "TitleBlock",
+                    "text": "Today is a Great Day",
+                    "color": "text-dark",
+                    "styles": null
+                },
+                "subtitle": "Subtitle goes here",
+                "text": "A Netlify Create website is a git repo that you own. Every code commit is instantly reflected in the visual editor and since every visual edit is a git commit, git workflows and collaboration just work.\n",
+                "actions": [
+                    {
+                        "$$type": "Button",
+                        "label": "Get started",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": ""
+                    },
+                    {
+                        "$$type": "Link",
+                        "label": "See Tutorials",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": ""
+                    }
+                ],
+                "media": {
+                    "$$type": "ImageBlock",
+                    "url": {
+                        "$$ref": "stackbit_asset_id:static:public/images/main-hero.svg",
+                        "$$type": "__asset_model"
+                    },
+                    "altText": "Unblock your team boost your time to production preview",
+                    "elementId": "",
+                    "styles": null
+                },
+                "badge": {
+                    "$$type": "Badge",
+                    "label": "This is a badge",
+                    "color": "text-primary",
+                    "styles": null
+                },
+                "elementId": "",
+                "colors": "bg-neutral-fg-dark",
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "alignItems": "center",
+                        "flexDirection": "row-reverse",
+                        "padding": [
+                            "pt-16",
+                            "pl-16",
+                            "pb-16",
+                            "pr-16"
+                        ]
+                    }
+                }
+            },
+            "thumbnail": "images/generic-section-joes-hero-component-86c8.png"
+        }
+    ]
+}
